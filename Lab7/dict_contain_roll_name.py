@@ -34,6 +34,44 @@ print(students)
 
 
 
+
+#delete roll no 20
+del students[20]
+print(students)
+
+
+#copy dict and create new dict called new_students
+print("List Copy")
+new_students={}
+new_students=students.copy()
+print(new_students)
+
+#adding new student to new_students
+new_students.update({209:"Ravi"})
+print("Students:")
+print(students)
+
+print()
+print("New Students:")
+print(new_students)
+print()
+
+#remove the recently added student
+print("Pop Items")
+print(students.popitem())
+print()
+
+# create a new_dict from Students and add a student in it and the same should be reflected in students
+new_dict = students
+new_dict.update({204:"Shyam"})
+# New Dict
+print("New Dictionary:")
+print(new_dict)
+#Old Students
+print("Students")
+print(students)
+
+
 # l) clear the items from students
 students = {1:"ram"} 
 print(students)
