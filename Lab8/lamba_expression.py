@@ -1,0 +1,1 @@
+# Example of lamba expression
