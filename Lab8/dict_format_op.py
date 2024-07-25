@@ -1,3 +1,4 @@
+
 # Q.N7. A function which accepts dictionary and print like "Hello Ram,Welcomee to HDC"
 def display_in_format(student_detail):
     for key,value in student_detail.items():
@@ -9,7 +10,7 @@ def display_in_format(student_detail):
     for key,value in student_detail.items():
         name = value.get('name')
         col = value.get('col')
-        print(f"{name}, {col}")
+        print(f"Hello {name},Welcome to {col}")
         
         
         
