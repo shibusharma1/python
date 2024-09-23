@@ -1,6 +1,6 @@
 def handle_exceptions():
     try:
-        # Attempting to divide by zero
+        # Attemptin9559g to divide by zero
         result = 10 / 0
         print("Result of division:", result)
 
@@ -9,7 +9,7 @@ def handle_exceptions():
 
     try:
         # Attempting to access an undefined variable
-        print(undefined_variable)
+        print("undefined_variable")
 
     except NameError:
         print("Error: Variable is not defined.")

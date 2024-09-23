@@ -18,7 +18,7 @@ obj = AccessModifiers()
 obj.display()
 
 # Accessing public and protected members from outside the class
-print(f"Public: {obj.public}")
+print(f"Public1: {obj.public}")
 print(f"Protected: {obj._protected}")
 
 # Accessing private member from outside the class (will raise an AttributeError)
